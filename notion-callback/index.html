@@ -1,0 +1,11 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Mousehold</title>
+<p>Returning to Mousehold…</p>
+<p><a id="open" href="#">Open Mousehold</a></p>
+<script>
+  var target = "mousehold://notion-callback" + location.search;
+  document.getElementById("open").href = target;
+  location.replace(target);
+</script>
